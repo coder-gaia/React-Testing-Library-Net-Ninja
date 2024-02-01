@@ -31,6 +31,7 @@ function AddInput({
                 placeholder="Add a new task here..."
             />
             <button 
+                data-testid="addBtn"
                 className="add-btn"
                 onClick={addTodo}
             >
